@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة Smart Land - الحلول التقنية والذكاء الاصطناعي</title>
+    <style>
+        :root {
+            --primary-color: #0f172a;
+            --accent-color: #3b82f6;
+            --bg-color: #f8fafc;
+            --text-color: #334155;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo img {
+            height: 50px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 600;
+        }
+        nav a:hover {
+            color: var(--accent-color);
+        }
+        .MainSection {
+            background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url('image1-final.webp') center/cover;
+            color: white;
+            text-align: center;
+            padding: 5rem 2rem;
+        }
+        .MainSection h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 3rem 2rem;
+        }
+        section {
+            margin-bottom: 3rem;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .services-grid, .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background: var(--bg-color);
+            padding: 1.5rem;
+            border-radius: 6px;
+            border: 1px solid #e2e8f0;
+        }
+        .media-container {
+            text-align: center;
+            margin: 1.5rem 0;
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+        /* صور بطاقات المشاريع */
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+       
+    </style>
+</head>
+<body>
+
+<!-- header وشعار الشركة -->
+<header>
+    <div class="logo">
+        <img src="logo.webp" alt="شعار Smart Land">
+    </div>
+    <nav>
+        <a href="#about">من نحن</a>
+        <a href="#services">خدماتنا</a>
+        <a href="#projects">مشاريعنا</a>
+        <a href="#media">الفيديو التعريفي</a>
+        <a href="#contact">اتصل بنا</a>
+    </nav>
+</header>
+
+<!-- الواجهة الرئيسية -->
+<div class="MainSection">
+    <h1>شركة Smart Land للحلول التقنية والذكاء الاصطناعي</h1>
+    <p>نبتكر حلولاً برمجية متطورة تلبي احتياجات المستقبل</p>
+</div>
+
+<div class="container">
+
+<!-- قسم من نحن -->
+<section id="about">
+    <h2>من نحن</h2>
+    <p>تأسست شركة Smart Land عام 2011 كشركة استشارات وحلول تقنية عالمية، وتهدف إلى تقديم حلول برمجية متطورة ومخصصة تلبي احتياجات قطاعات مختلفة مع دمج الذكاء الاصطناعي في عملياتها.</p>
+</section>
+
+<!-- قسم الخدمات -->
+<section id="services">
+<h2>الخدمات التي تقدمها الشركة</h2>
+<div class="services-grid">
+<div class="card">
+<h3>تطوير البرمجيات المخصصة</h3>
+<p>تصميم وبناء منصات وتطبيقات ويب وموبايل تلبي المتطلبات الدقيقة للشركات.</p>
+</div>
+<div class="card">
+<h3>دمج الذكاء الاصطناعي</h3>
+<p>توظيف تقنيات الذكاء الاصطناعي لتحسين كفاءة العمليات وتقديم تجارب ذكية.</p>
+</div>
+<div class="card">
+<h3>الحلول التقنية والاستشارات</h3>
+<p>تقديم استشارات متخصصة لمساعدة المؤسسات في التحول الرقمي.</p>
+</div>
+</div>
+</section>
+<!-- قسم معرض المشاريع -->
+<section id="projects">
+
+    <h2>معرض مشاريع الشركة</h2>
+
+    <div class="projects-grid">
+
+        <div class="card">
+           
+            <h3>تطبيق Smart Signal</h3>
+            <p>تطبيق لترجمة لغة الإشارة لتسهيل التواصل.</p>
+            <img src="PHOTO5 final.webp" alt="تطبيق Smart Signal">
+        </div>
+
+        <div class="card">
+           
+            <h3>منصة MyKey</h3>
+            <p>منصة للإعلان عن العقارات والمركبات المعروضة للبيع والإيجار.</p>
+            <img src="image2-final.webp" alt="منصة MyKey">
+        </div>
+
+        <div class="card">
+            
+            <h3>منصة التعلم عن بعد Sada</h3>
+            <p>بيئة تعليمية رقمية تفاعلية متكاملة.</p>
+            <img src="PHOTO3-final.webp" alt="منصة Sada">
+        </div>
+
+        <div class="card">
+           
+            <h3>تطبيق Welcome</h3>
+            <p>تطبيق للتسوق الإلكتروني متعدد المتاجر.</p>
+            <img src="PHOTO4 final.webp" alt="تطبيق Welcome">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- قسم الفيديو -->
+<section id="media">
+<h2>الفيديو التعريفي</h2>
+<p>شاهد الفيديو التعريفي بأعمال وأنشطة الشركة:</p>
+<div class="media-container">
+<video controls width="100%">
+<source src="video6021501306693231027.mp4" type="video/mp4">
+متصفحك لا يدعم عرض الفيديو.
+</video>
+</div>
+
+
+<!-- قسم التواصل -->
+<section id="contact">
+<h2>معلومات التواصل</h2>
+<p>يمكنكم التواصل معنا عبر البريد الإلكتروني: info@smartland-tech.com</p>
+<p>هاتف: 828-313-966</p>
+</section>
+
+</div>
+
+<!-- التذييل -->
+<footer>
+<p>جميع حقوق النشر محفوظة لشركة Smart Land &copy; 2026</p>
+</footer>
+</body>
+</html>
